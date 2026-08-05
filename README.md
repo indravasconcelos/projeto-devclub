@@ -73,29 +73,6 @@ projeto-devclub/
 └── README.md
 ```
 
----
-
-## Como executar
-
-1. **Clonar o repositório**
-
-   ```bash
-   git clone https://github.com/seu-usuario/projeto-devclub.git
-   ```
-
-2. **Abrir a pasta do projeto**
-
-   ```bash
-   cd projeto-devclub
-   ```
-
-3. **Executar o projeto**
-
-   - **Opção 1:** Abrir o arquivo `index.html` diretamente no navegador
-   - **Opção 2:** Utilizar o **Live Server** no VS Code (recomendado para melhor experiência)
-
----
-
 ## Responsividade
 
 O projeto foi desenvolvido utilizando a abordagem **Mobile First** e é totalmente adaptado para:
