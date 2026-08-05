@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevClub — Do zero ao mercado de tecnologia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================
+       HERO — PREMIUM VIDEO SECTION
+       ============================================ -->
+  <section class="hero" id="hero">
+    <!-- Video Background -->
+    <div class="hero__video-wrap">
+      <video class="hero__video" autoplay muted loop playsinline>
+        <source src="assets/video.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Overlay -->
+    <div class="hero__overlay"></div>
+
+    <!-- Decorative Elements -->
+    <div class="hero__glow"></div>
+    <div class="hero__grid"></div>
+
+    <!-- Content -->
+    <div class="hero__container">
+      <div class="hero__content" id="hero-content">
+        <!-- Heading -->
+        <h1 class="hero__title">
+          <span class="hero__title-line hero__title-line--1">Do absoluto zero</span>
+          <span class="hero__title-line hero__title-line--2">ao mercado de</span>
+          <span class="hero__title-line hero__title-line--3">
+            <span class="hero__title-gradient">tecnologia.</span>
+          </span>
+        </h1>
+
+        <!-- Subtitle -->
+        <p class="hero__subtitle">
+          Qualquer pessoa pode aprender a programar e construir uma carreira na tecnologia. O DevClub te guia desde o primeiro passo até a sua contratação.
+        </p>
+
+        <!-- Social Proof -->
+        <div class="hero__social-proof">
+          <div class="hero__avatars">
+            <img src="https://i.pravatar.cc/80?img=1" alt="Aluno" class="hero__avatar">
+            <img src="https://i.pravatar.cc/80?img=5" alt="Aluno" class="hero__avatar">
+            <img src="https://i.pravatar.cc/80?img=8" alt="Aluno" class="hero__avatar">
+            <img src="https://i.pravatar.cc/80?img=12" alt="Aluno" class="hero__avatar">
+          </div>
+          <span class="hero__social-text">+25.000 vidas transformadas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       NAVBAR
+       ============================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo" aria-label="DevClub — Página Inicial">
+        <span class="nav-logo-text">Dev<span class="nav-logo-highlight">Club</span></span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#hero">Início</a>
+        <a href="#jornada">Jornada</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#alem-do-codigo">Além do Código</a>
+        <a href="#mentores">Mentores</a>
+        <a href="#comunidade">Comunidade</a>
+        <a href="#mercado">Mercado</a>
+        <a href="#" class="nav-btn-outline">Área de Membro</a>
+        <a href="#final" class="nav-btn solid">Quero ser um dev</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       SEÇÃO 1 — A JORNADA
+       ============================================ -->
+  <section class="section-jornada" id="jornada">
+    <div class="jornada-header" data-reveal>
+      <span class="section-label">A Jornada</span>
+      <h2 class="section-title">Não é apenas assistir aulas.<br>É uma jornada inteira.</h2>
+      <p class="section-subtitle">Cada etapa existe por um motivo. E cada etapa te aproxima do profissional que você quer se tornar.</p>
+    </div>
+
+    <div class="jornada-cards">
+      <div class="jornada-card" data-step="0">
+        <div class="jcard-number">01</div>
+        <span class="jcard-phase">Início</span>
+        <h3 class="jcard-title">Zero</h3>
+        <p class="jcard-text">Você não precisa saber nada. O DevClub começa do absoluto zero — lógica, variáveis, o primeiro "Hello World".</p>
+      </div>
+
+      <div class="jornada-card" data-step="1">
+        <div class="jcard-number">02</div>
+        <span class="jcard-phase">Evolução</span>
+        <h3 class="jcard-title">Aprendizado</h3>
+        <p class="jcard-text">Conteúdo estruturado, aulas ao vivo, exercícios práticos. Você constrói base sólida dia após dia.</p>
+      </div>
+
+      <div class="jornada-card" data-step="2">
+        <div class="jcard-number">03</div>
+        <h3 class="jcard-title">Prática</h3>
+        <p class="jcard-text">Código na tela, erros no console, bugs que te fazem pensar. É aqui que o conhecimento vira habilidade.</p>
+      </div>
+
+      <div class="jornada-card" data-step="3">
+        <div class="jcard-number">04</div>
+        <h3 class="jcard-title">Projetos</h3>
+        <p class="jcard-text">Você aplica tudo em projetos reais. Aplicações web, desafios de código, soluções que cabem no seu portfólio.</p>
+      </div>
+
+      <div class="jornada-card" data-step="4">
+        <div class="jcard-number">05</div>
+        <h3 class="jcard-title">Acompanhamento</h3>
+        <p class="jcard-text">Mentores, tutores e profissionais do mercado guiam seus passos. Você nunca está sozinho nessa jornada.</p>
+      </div>
+
+      <div class="jornada-card" data-step="5">
+        <div class="jcard-number">06</div>
+        <h3 class="jcard-title">Comunidade</h3>
+        <p class="jcard-text">Dúvidas, troca de experiência, networking. Uma comunidade que cresce junto com você.</p>
+      </div>
+
+      <div class="jornada-card jornada-card--final" data-step="6">
+        <div class="jcard-number">07</div>
+        <span class="jcard-phase">Destino</span>
+        <h3 class="jcard-title">Mercado</h3>
+        <p class="jcard-text">Preparação profissional, portfólio, LinkedIn, entrevistas. O DevClub te conecta com empresas reais.</p>
+      </div>
+    </div>
+
+    <div class="jornada-progress">
+      <div class="jprogress-track">
+        <div class="jprogress-fill" id="jprogress-fill"></div>
+      </div>
+      <div class="jprogress-dots">
+        <span class="jdot active" data-dot="0"></span>
+        <span class="jdot" data-dot="1"></span>
+        <span class="jdot" data-dot="2"></span>
+        <span class="jdot" data-dot="3"></span>
+        <span class="jdot" data-dot="4"></span>
+        <span class="jdot" data-dot="5"></span>
+        <span class="jdot" data-dot="6"></span>
+      </div>
+      <div class="jprogress-counter">
+        <span class="jcounter-current" id="jcounter-current">01</span>
+        <span class="jcounter-sep">/</span>
+        <span class="jcounter-total">07</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SEÇÃO 2 — O QUE VOCÊ VAI APRENDER
+       ============================================ -->
+  <section class="section-learn" id="projetos">
+    <div class="learn-header" data-reveal>
+      <span class="section-label">O que você vai aprender</span>
+      <h2 class="section-title">Não é só sobre código.<br>É sobre construir o futuro.</h2>
+    </div>
+
+    <div class="learn-experience" data-reveal>
+      <!-- Categorias (lado esquerdo) -->
+      <div class="learn-categories">
+        <button class="learn-cat active" data-cat="fundamentos">
+          <span class="cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </span>
+          <div class="cat-text">
+            <span class="cat-title">Fundamentos</span>
+            <span class="cat-sub">HTML, CSS, JavaScript</span>
+          </div>
+          <span class="cat-arrow">&#8250;</span>
+        </button>
+
+        <button class="learn-cat" data-cat="front">
+          <span class="cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </span>
+          <div class="cat-text">
+            <span class="cat-title">Front-end</span>
+            <span class="cat-sub">React, Interfaces modernas</span>
+          </div>
+          <span class="cat-arrow">&#8250;</span>
+        </button>
+
+        <button class="learn-cat" data-cat="back">
+          <span class="cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+          </span>
+          <div class="cat-text">
+            <span class="cat-title">Back-end</span>
+            <span class="cat-sub">Node.js, APIs, Banco de Dados</span>
+          </div>
+          <span class="cat-arrow">&#8250;</span>
+        </button>
+
+        <button class="learn-cat" data-cat="ia">
+          <span class="cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/><line x1="9.5" y1="14.5" x2="9.5" y2="14.51"/><line x1="14.5" y1="14.5" x2="14.5" y2="14.51"/><path d="M10 17.5a4.5 4.5 0 0 0 4 0"/></svg>
+          </span>
+          <div class="cat-text">
+            <span class="cat-title">Inteligência Artificial</span>
+            <span class="cat-sub">OpenAI, Agentes, Automações</span>
+          </div>
+          <span class="cat-arrow">&#8250;</span>
+        </button>
+
+        <button class="learn-cat" data-cat="automacao">
+          <span class="cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </span>
+          <div class="cat-text">
+            <span class="cat-title">Automação & Dados</span>
+            <span class="cat-sub">Claude, n8n, Power BI</span>
+          </div>
+          <span class="cat-arrow">&#8250;</span>
+        </button>
+
+        <button class="learn-cat" data-cat="carreira">
+          <span class="cat-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </span>
+          <div class="cat-text">
+            <span class="cat-title">Carreira</span>
+            <span class="cat-sub">Portfólio, LinkedIn, Entrevistas</span>
+          </div>
+          <span class="cat-arrow">&#8250;</span>
+        </button>
+      </div>
+
+      <!-- Painéis de Conteúdo (lado direito) -->
+      <div class="learn-panels">
+        <!-- Fundamentos -->
+        <div class="learn-panel active" data-panel="fundamentos">
+          <div class="panel-visual">
+            <div class="code-window">
+              <div class="code-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <pre class="code-body"><code><span class="code-tag">html</span>
+&lt;<span class="code-blue">h1</span>&gt;Olá, mundo!&lt;/<span class="code-blue">h1</span>&gt;
+
+<span class="code-tag">css</span>
+<span class="code-purple">.botao</span> {
+  <span class="code-green">background</span>: <span class="code-orange">#39D353</span>;
+  <span class="code-green">border-radius</span>: <span class="code-yellow">8px</span>;
+}
+
+<span class="code-tag">javascript</span>
+<span class="code-purple">console</span>.<span class="code-blue">log</span>(<span class="code-string">"Você é dev!"</span>);</code></pre>
+            </div>
+          </div>
+          <div class="panel-info">
+            <h3>A base de tudo</h3>
+            <p>HTML, CSS e JavaScript — os três pilares que sustentam toda a web. Você vai do zero ao avançado.</p>
+            <div class="panel-tags">
+              <span>Sintaxe</span>
+              <span>Layout</span>
+              <span>Responsivo</span>
+              <span>DOM</span>
+              <span>Eventos</span>
+            </div>
+            <div class="panel-result">
+              <span class="result-icon">&#10003;</span>
+              <span>Sites completos funcionando</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Front-end -->
+        <div class="learn-panel" data-panel="front">
+          <div class="panel-visual">
+            <div class="react-preview">
+              <div class="react-center">
+                <div class="react-atom">&#9883;</div>
+                <div class="react-orbit"></div>
+                <div class="react-orbit orbit-2"></div>
+                <div class="react-orbit orbit-3"></div>
+              </div>
+              <div class="react-cards">
+                <div class="rcard" style="--i:0">Components</div>
+                <div class="rcard" style="--i:1">Hooks</div>
+                <div class="rcard" style="--i:2">State</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel-info">
+            <h3>Interfaces que encantam</h3>
+            <p>React, a biblioteca mais usada do mundo. Você vai criar interfaces dinâmicas, rápidas e profissionais.</p>
+            <div class="panel-tags">
+              <span>React</span>
+              <span>Components</span>
+              <span>Hooks</span>
+              <span>State</span>
+              <span>Props</span>
+            </div>
+            <div class="panel-result">
+              <span class="result-icon">&#10003;</span>
+              <span>Aplicações web modernas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Back-end -->
+        <div class="learn-panel" data-panel="back">
+          <div class="panel-visual">
+            <div class="backend-stack">
+              <div class="stack-node server">
+                <div class="node-glow"></div>
+                <span>Server</span>
+              </div>
+              <div class="stack-connector"></div>
+              <div class="stack-node api">
+                <div class="node-glow"></div>
+                <span>API</span>
+              </div>
+              <div class="stack-connector"></div>
+              <div class="stack-node db">
+                <div class="node-glow"></div>
+                <span>DB</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel-info">
+            <h3>O cérebro por trás</h3>
+            <p>Node.js, APIs REST, bancos de dados. Você vai construir o backend que faz tudo funcionar.</p>
+            <div class="panel-tags">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+              <span>PostgreSQL</span>
+              <span>Auth</span>
+            </div>
+            <div class="panel-result">
+              <span class="result-icon">&#10003;</span>
+              <span>Sistemas completos e escaláveis</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- IA -->
+        <div class="learn-panel" data-panel="ia">
+          <div class="panel-visual">
+            <div class="ai-brain">
+              <div class="brain-core">&#129302;</div>
+              <div class="brain-rings">
+                <div class="b-ring" style="--size: 80px"></div>
+                <div class="b-ring" style="--size: 120px"></div>
+                <div class="b-ring" style="--size: 160px"></div>
+              </div>
+              <div class="brain-nodes">
+                <span style="--angle: 0deg">&#128187;</span>
+                <span style="--angle: 72deg">&#128196;</span>
+                <span style="--angle: 144deg">&#128640;</span>
+                <span style="--angle: 216deg">&#128161;</span>
+                <span style="--angle: 288deg">&#9889;</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel-info">
+            <h3>O futuro é agora</h3>
+            <p>Inteligência Artificial aplicada. Prompt Engineering, OpenAI API, agentes autônomos e automações inteligentes.</p>
+            <div class="panel-tags">
+              <span>ChatGPT</span>
+              <span>Prompts</span>
+              <span>Agentes</span>
+              <span>Automações</span>
+              <span>APIs IA</span>
+            </div>
+            <div class="panel-result">
+              <span class="result-icon">&#10003;</span>
+              <span>Soluções inteligentes para empresas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Automação & Dados -->
+        <div class="learn-panel" data-panel="automacao">
+          <div class="panel-visual">
+            <div class="automation-flow">
+              <div class="auto-step" style="--i:0">
+                <div class="auto-icon">&#129302;</div>
+                <span>Claude</span>
+              </div>
+              <div class="auto-line"></div>
+              <div class="auto-step" style="--i:1">
+                <div class="auto-icon">&#128187;</div>
+                <span>Claude Code</span>
+              </div>
+              <div class="auto-line"></div>
+              <div class="auto-step" style="--i:2">
+                <div class="auto-icon">&#9889;</div>
+                <span>n8n</span>
+              </div>
+              <div class="auto-line"></div>
+              <div class="auto-step" style="--i:3">
+                <div class="auto-icon">&#128200;</div>
+                <span>Power BI</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel-info">
+            <h3>Automação e análise de dados</h3>
+            <p>Domine ferramentas de IA e automação que o mercado está exigindo. Do Claude ao Power BI, tudo que você precisa pra se destacar.</p>
+            <div class="panel-tags">
+              <span>Claude</span>
+              <span>Claude Code</span>
+              <span>n8n</span>
+              <span>Análise de Dados</span>
+              <span>Power BI</span>
+            </div>
+            <div class="panel-result">
+              <span class="result-icon">&#10003;</span>
+              <span>Automação + Dados no portfólio</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carreira -->
+        <div class="learn-panel" data-panel="carreira">
+          <div class="panel-visual">
+            <div class="career-path">
+              <div class="career-step" style="--i:0">
+                <div class="step-icon">&#128221;</div>
+                <span>Portfólio</span>
+              </div>
+              <div class="career-line"></div>
+              <div class="career-step" style="--i:1">
+                <div class="step-icon">&#128100;</div>
+                <span>LinkedIn</span>
+              </div>
+              <div class="career-line"></div>
+              <div class="career-step" style="--i:2">
+                <div class="step-icon">&#128188;</div>
+                <span>Entrevista</span>
+              </div>
+              <div class="career-line"></div>
+              <div class="career-step final" style="--i:3">
+                <div class="step-icon">&#127919;</div>
+                <span>Emprego</span>
+              </div>
+            </div>
+          </div>
+          <div class="panel-info">
+            <h3>Do código ao emprego</h3>
+            <p>Não adianta saber código se ninguém te enxergar. Preparação completa para o mercado de trabalho.</p>
+            <div class="panel-tags">
+              <span>Portfólio</span>
+              <span>GitHub</span>
+              <span>LinkedIn</span>
+              <span>Currículo</span>
+              <span>Entrevista</span>
+            </div>
+            <div class="panel-result">
+              <span class="result-icon">&#10003;</span>
+              <span>Colocação no mercado</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SEÇÃO EXTRA — ALÉM DO CÓDIGO
+       ============================================ -->
+  <section class="section-beyond" id="alem-do-codigo">
+    <div class="container">
+      <div class="beyond-header" data-reveal>
+        <span class="section-label">Além do código</span>
+        <h2 class="section-title">Você nunca está sozinho<br>nessa jornada.</h2>
+      </div>
+      <div class="beyond-grid" data-reveal>
+        <div class="beyond-card">
+          <div class="beyond-icon">&#128100;</div>
+          <h3>Recrutadora dedicada</h3>
+          <p>Acompanhamento semanal da sua preparação para o mercado de trabalho.</p>
+        </div>
+        <div class="beyond-card">
+          <div class="beyond-icon">&#129504;</div>
+          <h3>Terapeuta de alta performance</h3>
+          <p>Apoio focado em produtividade, foco e saúde mental durante a jornada.</p>
+        </div>
+        <div class="beyond-card">
+          <div class="beyond-icon">&#128218;</div>
+          <h3>Mentorias semanais</h3>
+          <p>Sessões ao vivo com profissionais do mercado pra manter você no caminho certo.</p>
+        </div>
+        <div class="beyond-card">
+          <div class="beyond-icon">&#129302;</div>
+          <h3>Agentes de IA 24h</h3>
+          <p>Dezenas de assistentes inteligentes prontos pra te ajudar a qualquer hora.</p>
+        </div>
+        <div class="beyond-card">
+          <div class="beyond-icon">&#128172;</div>
+          <h3>Suporte humano 7 dias por semana</h3>
+          <p>Equipe real disponível todos os dias pra resolver o que precisar.</p>
+        </div>
+        <div class="beyond-card">
+          <div class="beyond-icon">&#127760;</div>
+          <h3>Comunidade ativa</h3>
+          <p>Rede de alunos e profissionais trocando ideia e se ajudando diariamente.</p>
+        </div>
+        <div class="beyond-card">
+          <div class="beyond-icon">&#128188;</div>
+          <h3>Vagas exclusivas</h3>
+          <p>Acesso direto a oportunidades de emprego com empresas parceiras.</p>
+        </div>
+        <div class="beyond-card">
+          <div class="beyond-icon">&#127942;</div>
+          <h3>Módulos bônus</h3>
+          <p>Conteúdo extra pra te levar mais longe e se destacar ainda mais no mercado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SEÇÃO 3 — QUEM TE ACOMPANHA
+       ============================================ -->
+  <section class="section-mentors" id="mentores">
+    <div class="container">
+      <div class="mentors-team" data-reveal>
+        <div class="mentors-header">
+          <span class="section-label">Mentores</span>
+          <h2 class="section-title">Quem guia essa jornada</h2>
+          <p class="section-subtitle">Uma rede de profissionais dedicados à sua evolução.</p>
+        </div>
+
+        <div class="neural-network" id="neural-network">
+          <canvas id="neural-canvas"></canvas>
+          <div class="neural-nodes" id="neural-nodes"></div>
+          <div class="neural-info" id="neural-info">
+            <div class="neural-info-inner">
+              <span class="neural-info-role"></span>
+              <span class="neural-info-name"></span>
+              <span class="neural-info-desc"></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SEÇÃO 5 — COMUNIDADE
+       ============================================ -->
+  <section class="section-community" id="comunidade">
+    <canvas id="community-particles"></canvas>
+
+    <div class="community-header" data-reveal>
+      <span class="community-label">Comunidade</span>
+    </div>
+
+    <div class="mural-wall">
+      <!-- Row 1: Top -->
+      <div class="mural-photo mp-1-1" data-reveal><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=180&fit=crop&crop=faces" alt="Mulher apresentando ideias" loading="lazy"></div>
+      <div class="mural-photo mp-2-1" data-reveal><img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=300&h=180&fit=crop&crop=faces" alt="Time discutindo projeto" loading="lazy"></div>
+      <div class="mural-photo mp-3-1" data-reveal><img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=300&h=180&fit=crop&crop=faces" alt="Pessoas conversando" loading="lazy"></div>
+      <div class="mural-photo mp-4-1" data-reveal><img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=300&h=180&fit=crop&crop=faces" alt="Reunião de equipe" loading="lazy"></div>
+      <div class="mural-photo mp-5-1" data-reveal><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=180&fit=crop&crop=faces" alt="Grupo trocando ideias" loading="lazy"></div>
+      <div class="mural-photo mp-6-1" data-reveal><img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=300&h=180&fit=crop&crop=faces" alt="Apresentação em grupo" loading="lazy"></div>
+      <div class="mural-photo mp-7-1" data-reveal><img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=300&h=180&fit=crop&crop=faces" alt="Amigos discutindo" loading="lazy"></div>
+      <div class="mural-photo mp-8-1" data-reveal><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=300&h=180&fit=crop&crop=faces" alt="Equipe sorrindo" loading="lazy"></div>
+      <div class="mural-photo mp-9-1" data-reveal><img src="https://images.unsplash.com/photo-1553028826-f4804a6dba3b?w=300&h=180&fit=crop&crop=faces" alt="Networking" loading="lazy"></div>
+      <div class="mural-photo mp-10-1" data-reveal><img src="https://images.unsplash.com/photo-1560439514-4e9645039924?w=300&h=180&fit=crop&crop=faces" alt="Celebração" loading="lazy"></div>
+      <div class="mural-photo mp-11-1" data-reveal><img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=300&h=180&fit=crop&crop=faces" alt="Reunião criativa" loading="lazy"></div>
+      <div class="mural-photo mp-12-1" data-reveal><img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=300&h=180&fit=crop&crop=faces" alt="Time colaborando" loading="lazy"></div>
+
+      <!-- Row 2: Left -->
+      <div class="mural-photo mp-1-2" data-reveal><img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=300&h=180&fit=crop&crop=faces" alt="Conquista em grupo" loading="lazy"></div>
+      <div class="mural-photo mp-2-2" data-reveal><img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=300&h=180&fit=crop&crop=faces" alt="Estudando juntos" loading="lazy"></div>
+      <div class="mural-photo mp-3-2" data-reveal><img src="https://images.unsplash.com/photo-1559223607-a43c990c692c?w=300&h=180&fit=crop&crop=faces" alt="Dupla aprendendo" loading="lazy"></div>
+      <div class="mural-photo mp-4-2" data-reveal><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=300&h=180&fit=crop&crop=faces" alt="Compartilhando conhecimento" loading="lazy"></div>
+
+      <!-- Row 2: Right -->
+      <div class="mural-photo mp-9-2" data-reveal><img src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653?w=300&h=180&fit=crop&crop=faces" alt="Novo membro" loading="lazy"></div>
+      <div class="mural-photo mp-10-2" data-reveal><img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=300&h=180&fit=crop&crop=faces" alt="Mentoria" loading="lazy"></div>
+      <div class="mural-photo mp-11-2" data-reveal><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=300&h=180&fit=crop&crop=faces" alt="Orientação" loading="lazy"></div>
+      <div class="mural-photo mp-12-2" data-reveal><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=300&h=180&fit=crop&crop=faces" alt="Trabalho em equipe" loading="lazy"></div>
+
+      <!-- Row 3: Left -->
+      <div class="mural-photo mp-1-3" data-reveal><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=300&h=180&fit=crop&crop=faces" alt="Workshop" loading="lazy"></div>
+      <div class="mural-photo mp-2-3" data-reveal><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=300&h=180&fit=crop&crop=faces" alt="Juntos aprendendo" loading="lazy"></div>
+      <div class="mural-photo mp-3-3" data-reveal><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=180&fit=crop&crop=faces" alt="Time unido" loading="lazy"></div>
+      <div class="mural-photo mp-4-3" data-reveal><img src="https://images.unsplash.com/photo-1544717297-fa95b6ee9643?w=300&h=180&fit=crop&crop=faces" alt="Comunidade" loading="lazy"></div>
+
+      <!-- Row 3: Right -->
+      <div class="mural-photo mp-9-3" data-reveal><img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=300&h=180&fit=crop&crop=faces" alt="Colaborando" loading="lazy"></div>
+      <div class="mural-photo mp-10-3" data-reveal><img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=300&h=180&fit=crop&crop=faces" alt="Grupo estudando" loading="lazy"></div>
+      <div class="mural-photo mp-11-3" data-reveal><img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=300&h=180&fit=crop&crop=faces" alt="Aprendizado" loading="lazy"></div>
+      <div class="mural-photo mp-12-3" data-reveal><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=300&h=180&fit=crop&crop=faces" alt="Conversa produtiva" loading="lazy"></div>
+
+      <!-- Row 4: Bottom -->
+      <div class="mural-photo mp-1-4" data-reveal><img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=300&h=180&fit=crop&crop=faces" alt="Ideias surgindo" loading="lazy"></div>
+      <div class="mural-photo mp-2-4" data-reveal><img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=300&h=180&fit=crop&crop=faces" alt="Mentoria em dupla" loading="lazy"></div>
+      <div class="mural-photo mp-3-4" data-reveal><img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=300&h=180&fit=crop&crop=faces" alt="Pessoas reunidas" loading="lazy"></div>
+      <div class="mural-photo mp-4-4" data-reveal><img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=180&fit=crop&crop=faces" alt="Apresentando" loading="lazy"></div>
+      <div class="mural-photo mp-5-4" data-reveal><img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=300&h=180&fit=crop&crop=faces" alt="Compartilhando" loading="lazy"></div>
+      <div class="mural-photo mp-6-4" data-reveal><img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=300&h=180&fit=crop&crop=faces" alt="Time conversando" loading="lazy"></div>
+      <div class="mural-photo mp-7-4" data-reveal><img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?w=300&h=180&fit=crop&crop=faces" alt="Grupo unido" loading="lazy"></div>
+      <div class="mural-photo mp-8-4" data-reveal><img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=300&h=180&fit=crop&crop=faces" alt="Reunião" loading="lazy"></div>
+      <div class="mural-photo mp-9-4" data-reveal><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=180&fit=crop&crop=faces" alt="Trocando ideias" loading="lazy"></div>
+      <div class="mural-photo mp-10-4" data-reveal><img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=300&h=180&fit=crop&crop=faces" alt="Amigos" loading="lazy"></div>
+      <div class="mural-photo mp-11-4" data-reveal><img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=300&h=180&fit=crop&crop=faces" alt="Discussão" loading="lazy"></div>
+      <div class="mural-photo mp-12-4" data-reveal><img src="https://images.unsplash.com/photo-1553028826-f4804a6dba3b?w=300&h=180&fit=crop&crop=faces" alt="Conectados" loading="lazy"></div>
+
+      <!-- Center text -->
+      <div class="mural-center" data-reveal>
+        <h2 class="mural-phrase">Conectados para evoluir.</h2>
+        <p class="mural-sub">Aprendendo, compartilhando e construindo juntos.</p>
+      </div>
+    </div>
+
+    <div class="testimonials-section">
+      <div class="testimonials-track" id="testimonials-track">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Saí da fábrica e entrei pro mercado de tech em 8 meses. A comunidade me sustentou nos dias difíceis."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=faces" alt="Lucas Andrade"></div>
+            <div>
+              <span class="testimonial-name">Lucas Andrade</span>
+              <span class="testimonial-role">Ex-faxineiro — Dev Jr</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Tinha zero de programação. Hoje sou dev full-stack e mentor de novos alunos. Essa comunidade muda vidas."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop&crop=faces" alt="Thiago Mendes"></div>
+            <div>
+              <span class="testimonial-name">Thiago Mendes</span>
+              <span class="testimonial-role">Ex-faxineiro — Dev Full-Stack & Mentor</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"O suporte técnico é incomparável. Qualquer dúvida, tem alguém pra ajudar. Nunca me senti sozinho."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=faces" alt="Rafael Duarte"></div>
+            <div>
+              <span class="testimonial-name">Rafael Duarte</span>
+              <span class="testimonial-role">Ex-motoboy — Dev Suporte</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"De auxiliar de produção pra dev front-end. O DevClub não é só curso, é uma família que te empurra pra frente."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=80&h=80&fit=crop&crop=faces" alt="Gabriel Nunes"></div>
+            <div>
+              <span class="testimonial-name">Gabriel Nunes</span>
+              <span class="testimonial-role">Ex-auxiliar de Produção — Dev Frontend</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"A mentoria de carreira me ajudou a entender que não basta saber código. Precisa se posicionar. E funciona."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop&crop=faces" alt="Camila Rezende"></div>
+            <div>
+              <span class="testimonial-name">Camila Rezende</span>
+              <span class="testimonial-role">Ex-vendedora ambulante — Dev & Mentora de Carreira</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Fiz amigos, aprendi IA do zero e hoje trabalho com automação. A comunidade é o que mantém você motivado."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar"><img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=80&h=80&fit=crop&crop=faces" alt="Vinícius Almeida"></div>
+            <div>
+              <span class="testimonial-name">Vinícius Almeida</span>
+              <span class="testimonial-role">Ex-garçom — Dev de Automação</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SEÇÃO 6 — PREPARAÇÃO PARA O MERCADO
+       ============================================ -->
+  <section class="section-market" id="mercado">
+    <div class="container">
+      <div class="market-header" data-reveal>
+        <span class="section-label">Mercado</span>
+        <h2 class="section-title">Aprender é o começo.<br>Conseguir a vaga é o resultado.</h2>
+        <p class="section-subtitle">Um passo de cada vez, com apoio de quem já trilhou o caminho antes de você.</p>
+      </div>
+
+      <div class="market-grid" data-reveal>
+        <div class="market-card">
+          <span class="market-card-num">01</span>
+          <h4>Aprender</h4>
+          <p>Conteúdo do zero, sem pular etapas.</p>
+        </div>
+        <div class="market-card">
+          <span class="market-card-num">02</span>
+          <h4>Praticar</h4>
+          <p>Desafios reais e código todo dia.</p>
+        </div>
+        <div class="market-card">
+          <span class="market-card-num">03</span>
+          <h4>Construir</h4>
+          <p>Projetos para o portfólio.</p>
+        </div>
+        <div class="market-card">
+          <span class="market-card-num">04</span>
+          <h4>Posicionar</h4>
+          <p>LinkedIn e currículo prontos.</p>
+        </div>
+        <div class="market-card market-card--final">
+          <span class="market-card-num">05</span>
+          <h4>Vaga conquistada</h4>
+          <p>Indicação e preparação pra entrevista.</p>
+        </div>
+      </div>
+
+      <div class="salary-panel" data-reveal>
+        <h3 class="salary-title">O que o mercado paga</h3>
+        <p class="salary-subtitle">Faixas salariais reais para desenvolvedores no Brasil</p>
+        <div class="salary-grid">
+          <div class="salary-card">
+            <div class="salary-level">Júnior</div>
+            <div class="salary-range">
+              <span class="salary-from">R$ 2.500</span>
+              <span class="salary-divider">até</span>
+              <span class="salary-to">R$ 4.500</span>
+            </div>
+            <div class="salary-period">/mês</div>
+            <div class="salary-bar">
+              <div class="salary-fill" style="--fill: 35%"></div>
+            </div>
+            <p class="salary-desc">Primeira experiência no mercado</p>
+          </div>
+          <div class="salary-card salary-card--highlight">
+            <div class="salary-level">Pleno</div>
+            <div class="salary-range">
+              <span class="salary-from">R$ 5.000</span>
+              <span class="salary-divider">até</span>
+              <span class="salary-to">R$ 9.000</span>
+            </div>
+            <div class="salary-period">/mês</div>
+            <div class="salary-bar">
+              <div class="salary-fill" style="--fill: 65%"></div>
+            </div>
+            <p class="salary-desc">Autonomia e entregas consistentes</p>
+          </div>
+          <div class="salary-card">
+            <div class="salary-level">Sênior</div>
+            <div class="salary-range">
+              <span class="salary-from">R$ 10.000</span>
+              <span class="salary-divider">até</span>
+              <span class="salary-to">R$ 18.000+</span>
+            </div>
+            <div class="salary-period">/mês</div>
+            <div class="salary-bar">
+              <div class="salary-fill" style="--fill: 100%"></div>
+            </div>
+            <p class="salary-desc">Liderança e arquitetura de sistemas</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="market-partners" data-reveal>
+        <p class="partners-label">Empresas que contratam nossos alunos</p>
+        <div class="partners-marquee">
+          <div class="partners-track">
+            <svg class="partner-logo" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="25" fill="#EC0000"/><text x="65" y="38" font-family="Arial" font-weight="bold" font-size="26" fill="#EC0000">Santander</text></svg>
+            <svg class="partner-logo" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="25" fill="#1DB954"/><path d="M45 22c-8-5-20-6-27-3-.5.2-1-.1-.9-.6.1-.4.5-.5.9-.4 8.3 3.4 21.5 3 30.3 2.6.5.1.8.5.7.9-.1.5-.5.6-.9.5zm-1.6 6.3c-.1.5-.7.7-1.2.5-7-4.3-17.6-5.5-25.9-3-.5.1-1-.1-.9-.6.1-.5.6-.7 1-.5 9.2 2.8 20.9 1.5 28.7 3.2.4.1.6.5.5.9l-.2-.5zm-1.3 6.1c-.1.4-.6.6-1 .4-6.1-3.7-13.8-4.5-22.9-2.5-.4.1-.8-.1-.8-.5.1-.4.6-.6 1-.4 9.7 2.1 18 1.2 24.6 2.8.4.2.5.6.4.9l-.3-.7z" fill="#1DB954"/><text x="62" y="38" font-family="Arial" font-weight="bold" font-size="24" fill="#1DB954">Spotify</text></svg>
+            <svg class="partner-logo" viewBox="0 0 160 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="900" font-size="38" fill="#0052CC">TOTVS</text></svg>
+            <svg class="partner-logo" viewBox="0 0 160 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="15" y="42" font-family="Arial" font-weight="bold" font-size="36" fill="#6C3BAA">Stone</text></svg>
+            <svg class="partner-logo" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="bold" font-size="26" fill="#FF6600">BTG Pactual</text></svg>
+            <svg class="partner-logo" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="bold" font-size="26" fill="#005CA9">PI Investimentos</text></svg>
+            <svg class="partner-logo" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="bold" font-size="26" fill="#FF4D00">Toro Investimentos</text></svg>
+            <svg class="partner-logo" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="bold" font-size="26" fill="#00A3E0">PremierSoft</text></svg>
+            <!-- duplicados para loop contínuo -->
+            <svg class="partner-logo" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="25" fill="#EC0000"/><text x="65" y="38" font-family="Arial" font-weight="bold" font-size="26" fill="#EC0000">Santander</text></svg>
+            <svg class="partner-logo" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="25" fill="#1DB954"/><text x="62" y="38" font-family="Arial" font-weight="bold" font-size="24" fill="#1DB954">Spotify</text></svg>
+            <svg class="partner-logo" viewBox="0 0 160 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="900" font-size="38" fill="#0052CC">TOTVS</text></svg>
+            <svg class="partner-logo" viewBox="0 0 160 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="15" y="42" font-family="Arial" font-weight="bold" font-size="36" fill="#6C3BAA">Stone</text></svg>
+            <svg class="partner-logo" viewBox="0 0 220 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="bold" font-size="26" fill="#FF6600">BTG Pactual</text></svg>
+            <svg class="partner-logo" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="bold" font-size="26" fill="#005CA9">PI Investimentos</text></svg>
+            <svg class="partner-logo" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="bold" font-size="26" fill="#FF4D00">Toro Investimentos</text></svg>
+            <svg class="partner-logo" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="10" y="42" font-family="Arial" font-weight="bold" font-size="26" fill="#00A3E0">PremierSoft</text></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-section" data-reveal>
+        <h3 class="faq-title">Perguntas frequentes</h3>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Eu que nem sei ligar o computador, consigo?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sim. O conteúdo começa do absoluto zero. Se você sabe usar WhatsApp e internet, já tem o suficiente pra começar.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quanto tempo por dia preciso dedicar?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Em média 1 a 2 horas por dia. O conteúdo é flexível e você estuda no seu ritmo, com aulas gravadas.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Vocês garantem que eu vou conseguir emprego?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Ninguém pode garantir, mas nosso método foi desenhado pra te colocar no mercado. Você terá portfólio, preparação pra entrevista e conexão com empresas parceiras.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Tem gente que já trabalha na área formada por vocês?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Sim. Centenas de alunos já foram colocados em empresas como Santander, Spotify, TOTVS e outras parceiras.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>E se eu travar e não conseguir acompanhar?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Tem suporte humano 7 dias por semana, mentorias ao vivo e agentes de IA 24h pra te ajudar a destravar qualquer bloco.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quanto custa e quais as formas de pagamento?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Entre em contato com nossa equipe pra conhecer valores e condições de pagamento. Temos opções pra diferentes realidades.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-cta">
+          <p>Ainda tem dúvidas?</p>
+          <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20tenho%20d%C3%BAvidas%20sobre%20o%20DevClub%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." class="btn-secondary" target="_blank">Fale com a gente</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SEÇÃO FINAL
+       ============================================ -->
+  <section class="section-finale" id="final">
+    <div class="finale-bg">
+      <div class="finale-orbit finale-orbit--1"></div>
+      <div class="finale-orbit finale-orbit--2"></div>
+      <div class="finale-orbit finale-orbit--3"></div>
+    </div>
+    <div class="container finale-content" data-reveal>
+      <h2 class="finale-title">A diferença entre sonhar e conquistar é começar.</h2>
+      <p class="finale-sub">Você não precisa saber tudo. Só precisa dar o primeiro passo.</p>
+      <a href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20quero%20mudar%20o%20meu%20futuro%20e%20come%C3%A7ar%20a%20trabalhar%20com%20tecnologia." class="btn-primary btn-large" target="_blank">Quero ser um dev</a>
+      <div class="guarantee-card" data-reveal>
+        <div class="guarantee-shine"></div>
+        <div class="guarantee-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#39D353" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <div class="guarantee-content">
+          <h3>Garantia de 7 dias</h3>
+          <p>Teste o DevClub por 7 dias inteiros. Se não gostar, devolvemos 100% do valor. Simples assim.</p>
+          <div class="guarantee-perks">
+            <div class="guarantee-perk">
+              <span class="perk-check">&#10003;</span>
+              <span>Acesso total por 7 dias</span>
+            </div>
+            <div class="guarantee-perk">
+              <span class="perk-check">&#10003;</span>
+              <span>Cancelamento fácil</span>
+            </div>
+            <div class="guarantee-perk">
+              <span class="perk-check">&#10003;</span>
+              <span>Reembolso integral</span>
+            </div>
+          </div>
+        </div>
+        <div class="guarantee-badge">
+          <span class="guarantee-days">7</span>
+          <span class="guarantee-label">dias</span>
+        </div>
+      </div>
+      <p class="finale-note">Sem compromisso. Só a possibilidade de transformar sua vida.</p>
+      <div class="finale-badge">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#39D353" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+        <span>Instituição reconhecida pelo MEC com diplomas oficiais</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top" data-reveal>
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo" aria-label="DevClub — Página Inicial">
+            <span class="nav-logo-text">Dev<span class="nav-logo-highlight">Club</span></span>
+          </a>
+          <p class="footer-desc">Transformando vidas através da educação em tecnologia. Do zero ao mercado, com uma comunidade que não te deixa pra trás.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="GitHub" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Plataforma</h4>
+          <a href="#jornada">Jornada</a>
+          <a href="#projetos">O que você vai aprender</a>
+          <a href="#alem-do-codigo">Além do Código</a>
+        <a href="#mentores">Mentores</a>
+          <a href="#comunidade">Comunidade</a>
+          <a href="#mercado">Mercado de trabalho</a>
+        </div>
+        <div class="footer-col">
+          <h4>Empresa</h4>
+          <a href="#">Sobre nós</a>
+          <a href="#">Blog</a>
+          <a href="#">Carreiras</a>
+          <a href="#">Imprensa</a>
+          <a href="#">Parceiros</a>
+        </div>
+        <div class="footer-col">
+          <h4>Suporte</h4>
+          <a href="#">Central de ajuda</a>
+          <a href="#">Contato</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 DevClub. Todos os direitos reservados.</p>
+        <p>CNPJ: 00.000.000/0001-00 — São Paulo, SP</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
