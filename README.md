@@ -1,6 +1,6 @@
 <div align="center">
 
-# DevClub — pagina institucional
+# DevClub — site institucional
 
 ### Do zero ao mercado de tecnologia
 
